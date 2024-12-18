@@ -1,2 +1,10 @@
 streamlit
 streamlit-option-menu
+python-dotenv
+groq
+requests
+Flask_cors
+Flask
+langchain==0.1.16
+langchain-core
+langchain-groq
