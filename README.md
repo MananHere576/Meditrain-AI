@@ -93,7 +93,7 @@ The backend will be running at: `http://localhost:5000`
 ---
 
 ## ❤️ **Contributors**
-Special thanks to our contributors and mentors for their guidance and support.
+Special thanks to our mentor for their guidance and support.
 
 ---
 
