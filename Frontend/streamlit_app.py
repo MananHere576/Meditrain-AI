@@ -1,4 +1,5 @@
 import streamlit as st
+from streamlit_option_menu import option_menu
 import importlib
 
 # Menu configuration (1=sidebar menu, 2=horizontal menu)
@@ -8,12 +9,15 @@ MENU_TYPE = 1
 def streamlit_menu(menu_type=1):
     if menu_type == 1:
         with st.sidebar:
-            selected = None
-            buttons = ["Home", "Meditrain AI Bot", "Description"]
-            for button in buttons:
-                if st.button(button):
-                    selected = button
-            return selected
+            selected = option_menu(
+                menu_title="Main Menu",
+                options=["Home", "Meditrain AI Bot", "Description"],
+                icons=["house", "robot", "book"],
+                menu_icon="cast",
+                default_index=0,
+                key="sidebar_menu",
+            )
+        return selected
 
 # Initialize the menu
 selected = streamlit_menu(menu_type=MENU_TYPE)
