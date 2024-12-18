@@ -89,8 +89,6 @@ The backend will be running at: `http://localhost:5000`
 - **LangChain**: Contextual enhancements for AI responses.
 - **OpenAI API**: Powers the AI chatbot for medical interactions.
 
-### Database:
-- **SQLite**: Lightweight and reliable database management.
 
 ---
 
