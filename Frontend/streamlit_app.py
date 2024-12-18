@@ -1,7 +1,7 @@
 import streamlit as st
 import importlib
 
-# Menu configuration
+# Menu configuration (1=sidebar menu, 2=horizontal menu)
 MENU_TYPE = 1
 
 # Function to set up the menu
