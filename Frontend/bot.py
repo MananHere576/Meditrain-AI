@@ -28,7 +28,7 @@ def chatbot_interface():
         # API call to the Flask backend
         payload = {"query": user_input}
         try:
-            response = requests.post("http://127.0.0.1:5000/response", json=payload)
+            response = requests.post("https://meditrain-ai-9.onrender.com/response", json=payload)
 
             if response.status_code == 200:
                 bot_reply = response.json().get("response", "No response found.")
