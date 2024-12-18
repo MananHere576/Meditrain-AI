@@ -9,6 +9,10 @@ MediTrain AI Bot is an innovative tool designed to revolutionize medical trainin
 
 ---
 
+## 🙌 Working Link - https://med-bot.streamlit.app/
+
+---
+
 ## ✨ **Key Features**
 
 - **Interactive Chatbot**: Engage with AI to simulate real-time patient conversations.
