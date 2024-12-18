@@ -87,7 +87,7 @@ The backend will be running at: `http://localhost:5000`
 ### Backend:
 - **Flask**: API for handling and processing user queries.
 - **LangChain**: Contextual enhancements for AI responses.
-- **OpenAI API**: Powers the AI chatbot for medical interactions.
+- **GROQ API**: Powers the AI chatbot for medical interactions.
 
 
 ---
