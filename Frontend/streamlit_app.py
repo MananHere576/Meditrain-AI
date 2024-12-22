@@ -2,6 +2,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 import importlib
 
+# Clear Cache
 st.cache_data.clear()
 
 # Set tab title and favicon
@@ -25,12 +26,15 @@ st.markdown(
             background-color: #1e1e1e;
             color: #FFD700;
         }
-        .css-1v3fvcr {
-            color: #FFD700 !important; /* Sidebar menu text color */
+        /* Sidebar Menu Text */
+        .css-1v3fvcr, .stSidebar .menu-item {
+            color: #FFD700 !important;
         }
+        /* Heading Text Styling */
         .css-17z2g3v {
             color: #FF4500 !important; /* Main heading text */
         }
+        /* Button Styling */
         .stButton button {
             background-color: #FF4500;
             color: white;
