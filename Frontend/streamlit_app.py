@@ -2,6 +2,8 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 import importlib
 
+st.cache_data.clear()
+
 # Set tab title and favicon
 st.set_page_config(
     page_title="MediTrain AI",
