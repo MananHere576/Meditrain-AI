@@ -2,6 +2,56 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 import importlib
 
+# Set tab title and favicon
+st.set_page_config(
+    page_title="MediTrain AI",
+    page_icon="🩺",
+    layout="centered",
+    initial_sidebar_state="expanded",
+)
+
+# Custom CSS for styling
+st.markdown(
+    """
+    <style>
+        /* General Page Styling */
+        body {
+            background-color: #121212;
+            color: #FFD700;
+        }
+        .stSidebar {
+            background-color: #1e1e1e;
+            color: #FFD700;
+        }
+        .css-1v3fvcr {
+            color: #FFD700 !important; /* Sidebar menu text color */
+        }
+        .css-17z2g3v {
+            color: #FF4500 !important; /* Main heading text */
+        }
+        .stButton button {
+            background-color: #FF4500;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        .stButton button:hover {
+            background-color: #FFD700;
+            color: black;
+        }
+        /* Titles and Subtitles */
+        h1, h2, h3 {
+            color: #FFD700;
+        }
+        /* Horizontal Line Styling */
+        hr {
+            border: 1px solid #FF4500;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 # Menu configuration (1=sidebar menu, 2=horizontal menu)
 MENU_TYPE = 1
 
