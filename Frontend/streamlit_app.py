@@ -17,43 +17,50 @@ st.set_page_config(
 st.markdown(
     """
     <style>
-        /* General Page Styling */
-        body {
-            background-color: #121212;
-            color: #FFD700;
-        }
-        .stSidebar {
-            background-color: #1e1e1e;
-            color: #FFD700;
-        }
-        /* Sidebar Menu Text */
-        .css-1v3fvcr, .stSidebar .menu-item {
-            color: #FFD700 !important;
-        }
-        /* Heading Text Styling */
-        .css-17z2g3v {
-            color: #FF4500 !important; /* Main heading text */
-        }
-        /* Button Styling */
-        .stButton button {
-            background-color: #FF4500;
-            color: white;
-            border: none;
-            border-radius: 5px;
-        }
-        .stButton button:hover {
-            background-color: #FFD700;
-            color: black;
-        }
-        /* Titles and Subtitles */
-        h1, h2, h3 {
-            color: #FFD700;
-        }
-        /* Horizontal Line Styling */
-        hr {
-            border: 1px solid #FF4500;
-        }
-    </style>
+    /* General Page Styling */
+    body {
+        background-color: #121212;
+        color: #FFD700;
+    }
+
+    .stSidebar {
+        background-color: #1e1e1e;
+        color: #FFD700;
+    }
+
+    .css-1v3fvcr {
+        color: #FFD700 !important; /* Sidebar menu text color */
+    }
+
+    .css-17z2g3v {
+        color: #FF4500 !important; /* Main heading text */
+    }
+
+    .stButton button {
+        background-color: #FF4500;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .stButton button:hover {
+        background-color: #FFD700;
+        color: black;
+    }
+
+    /* Titles and Subtitles */
+    .st-emotion-cache-1otqz59 h1, .st-emotion-cache-1cvow4s h1,
+    .st-emotion-cache-1otqz59 h2, .st-emotion-cache-1cvow4s h2,
+    .st-emotion-cache-1otqz59 h3, .st-emotion-cache-1cvow4s h3 {
+        color: #FFD700 !important;
+        text-decoration: none !important; /* Prevent strikethrough or any other decoration */
+    }
+
+    /* Horizontal Line Styling */
+    hr {
+        border: 1px solid #FF4500;
+    }
+</style>
     """,
     unsafe_allow_html=True,
 )
