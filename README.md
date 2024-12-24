@@ -76,8 +76,6 @@ The backend will be running at: `http://localhost:5000`
 
 ## 🏆 **Outcomes**
 
-- 📝 **Users** can register as medical professionals or general users.
-- 🔑 **Users** can log in securely.
 - 📚 **Medical Training**: Users can practice diagnosis and patient communication.
 - 🌟 **Health Insights**: Access valuable health tips and resources.
 
