@@ -50,7 +50,7 @@ def content_page():
         2. **Backend Setup:** Created a Flask-based API to handle AI responses using LangChain and Groq.
         3. **Frontend Development:** Designed a Streamlit-based interface for an engaging user experience.
         4. **Integration:** Linked the Streamlit frontend with the Flask backend for seamless interaction.
-        5. **Hosting:** Hosted the backend on Railway and explored options for hosting the frontend on Streamlit Cloud or Vercel.
+        5. **Hosting:** Hosted the backend on Render and explored options for hosting the frontend on Streamlit Cloud or Vercel.
         """
     )
 
